@@ -1,0 +1,15 @@
+e.g you have modified a file filename.txt
+
+
+$ git status
+# and it will show you that a file filename.txt is edited..
+
+
+
+$ git checkout -- "filename.txt"
+
+
+$ git status
+#nothing will be there against that "filename.txt"
+#file is now as it was in last commit..
+
