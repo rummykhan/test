@@ -1,0 +1,14 @@
+
+$ git status
+#to see which files are not yet added (staged)
+
+$ git add .
+#to add all the newly files to git repo
+
+
+$ git commit -m "comment to this commit"
+#add comments to this commit
+
+
+$ git push
+#pushing this file to remote repository
