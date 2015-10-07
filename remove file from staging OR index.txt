@@ -1,0 +1,29 @@
+e.g. you edited a file x.txt
+
+
+$ git status
+# show status that a file x.txt has been edited
+
+
+$ git add x.txt
+#file is added to staging..
+
+
+now before final commit.. you want to re edit that file and remove from staging area..
+
+$ git reset head x.txt
+#file is removed from stages..
+
+Now do whatever you want to do..
+
+$ git add x.txt
+#file is added for staging..
+
+
+$ git commit -m "write commit"
+# saved to local repository..
+
+
+$ git push
+# push changed to remote repository..
+
