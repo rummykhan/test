@@ -1,0 +1,12 @@
+
+
+$ git pull
+# this pull the changes from the remote repository and merge the changes to local repo mean everything is up to date..
+
+
+$ git fetch
+# this pull the changes from the remote to local repo but don't update the files yet
+
+
+$ git merge
+# this merge the brought changes from local repo to Workspace mean update the files as well..

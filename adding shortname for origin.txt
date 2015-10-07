@@ -1,0 +1,8 @@
+
+$ git remote add [shortname] [url]
+# this will add shortname for that url for further use..
+
+
+
+$ git remote -v
+# see the status of remote origin.
