@@ -1,0 +1,27 @@
+
+
+$ git status
+# see how much files
+
+$ git add filename.txt
+# if you want to add files one by one..
+
+$ git add .
+# add all files to git staging.
+
+$ git commit -m "add comments for commit.."
+# commit the changes 
+
+$ git status
+# see status of files if need to be added
+
+$ git rm filename.txt
+# remove file from staging..
+
+
+$ git commit -m "add comments"
+# add comments..
+
+
+$ git push
+# push the changes to remote repository..

@@ -2,9 +2,13 @@
 $ git status
 #to see which files are not yet added (staged)
 
-$ git add .
-#to add all the newly files to git repo
+	$ git add .
+	#to add all the newly files to git repo
+	
+	OR
 
+	$ git add direcotry/filename.ext
+	#to add a single file to staging area
 
 $ git commit -m "comment to this commit"
 #add comments to this commit
